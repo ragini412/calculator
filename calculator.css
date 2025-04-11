@@ -1,0 +1,54 @@
+#body{
+    border: 1px solid rgb(150, 147, 147);
+    width: 80%;
+    margin: auto;
+}
+input{
+    display: block;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+}
+.btn-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 630px) {
+    .btn-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .btn-container{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .btn-container{
+        width: 70%;
+    }
+    .btn{
+        height: 55px;
+        width: 55px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .btn-container{
+        width: 70%;
+    }
+    .btn{
+        height: 40px;
+        width: 40px;
+    }
+}
